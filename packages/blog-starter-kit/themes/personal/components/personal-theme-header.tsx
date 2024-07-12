@@ -84,12 +84,12 @@ export const PersonalHeader = () => {
 							{publication.title}
 						</Link>
 					</h1>
-					<ToggleTheme className="md:hidden" />
+					{/* <ToggleTheme className="md:hidden" /> */}
 				</div>
 			</div>
 			<div className="col-span-full flex flex-row items-center justify-between gap-4 md:col-span-1 md:justify-end">
 				<nav>{navList}</nav>
-				<ToggleTheme className="hidden md:block" />
+				{/* <ToggleTheme className="hidden md:block" /> */}
 				{/* <Button
           label=""
           type="outline"
